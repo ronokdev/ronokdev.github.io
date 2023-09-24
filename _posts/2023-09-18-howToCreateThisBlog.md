@@ -31,6 +31,47 @@ As the system Ruby is old, and it can’t be updated we will not use the ruby th
 
 we can set up ruby in a lot of different ways but my recommendation is to use a ruby version manager tool like [rbenv](https://github.com/rbenv/rbenv). Also with `rbenv` we can switch between multiple Ruby versions on the same machine if needed.
 
+So, lets setup `rbenv` and for that we need to run the below three commands
 
+```bash
+brew install rbenv ruby-build
+vi ~/.zshrc 
+eval "$(rbenv init - zsh)"
+```
+Now let's understand what these command does. <br>
+- This command `brew install rbenv ruby-build` installs the `rbenv` into our local machine and we are using `Homebrew`
+- The next two commands ensure that `rbenv` is properly configured every time we start a new `zsh` session.So, when we run this command `vi ~/.zshrc`, we are opening the configuration file of `zsh` with `vim` and after that we need to add this line `eval "$(rbenv init - zsh)` to the `.zshrc` file.
+
+If you are using `bash` then the commands looks like below
+```bash
+brew install rbenv ruby-build
+vi ~/.bashrc
+eval "$(rbenv init - zsh)"
+```
+<br>
+Now let's install Ruby. And for that we need to run these commands
+
+```bash
+rbenv install -l
+rbenv install 3.2.2 --verbose
+```
+Now let's understand what these command does. <br>
+- `rbenv install -l` shows all the latest stable ruby version, and we can choose what we want to install. At the time of writing this article we have ruby version : `3.2.2` and we are going to install ruby with the second command `rbenv install 3.2.2 --verbose`
+
+When we install Ruby , `Ruby Gems` also gets installed. `Ruby Gems` or `gem` is a command-line tool for installing different packages or libraries that can be used in Ruby applications.
+<br>
+
+Now its time to install `bundler` and `jekyll`. These are two ruby gems or libraries that we are going to use for our static site.
+
+```bash
+gem install bundler jekyll
+```
+
+Let's verify that all the dependency are installed.
+```bash
+gem env home
+which -a gem
+which -a ruby
+```
 
 {% include comment.html %}
