@@ -1,5 +1,5 @@
 ---
-title:  Build and host portfolio site with jekyll chirpy under 1 hour
+title:  Build and host portfolio site with jekyll chirpy
 date: 2023-09-18 12:34:27 -500
 categories: [portfolio]
 tags: [portfolio,personal site,cv]
@@ -73,5 +73,24 @@ gem env home
 which -a gem
 which -a ruby
 ```
+when the first command `gem env home` is run then, we should see something as output
+
+`/Users/YOUR_USER_NAME/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0`
+
+And that means we have ruby setup in our local machine.
+<br>
+we can also verify even further with the last 2 commands
+
+For this command `which -a gem`, the output should be
+
+`/Users/YOUR_USER_NAME/.rbenv/shims/gem`
+
+For this command `which -a ruby`, the output should be
+
+`/Users/mdfarhanfuadronok/.rbenv/shims/ruby`
+
+
+
+And that's it , so now we have all the component we need to continue building our static site.
 
 {% include comment.html %}
