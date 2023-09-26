@@ -1,20 +1,20 @@
 ---
-title:  Build and host portfolio site with jekyll chirpy
+title:  Build and host portfolio site with jekyll chirpy - Part 1
 date: 2023-09-18 12:34:27 -500
 categories: [portfolio]
 tags: [portfolio,personal site,cv]
 ---
 
 ## Objective of this article
-we are going to understand how to build and host portfolio site with jekyll-chirpy under 1 hour. We will use chirpy as a theme and we will host this static site to GitHub.
+we are going to understand how to build and host portfolio site with jekyll-chirpy under 1 hour. We will use chirpy as a theme and we will host this static site to GitHub. In the first part we will understand how to prepare our local environment to get started.
 
 
 ## Why we are using jekyll
-Because jekyll is open-source static site generator and it also has a very good integration with GitHub Pages. If you already have a ruby development setup installed in your local machine then it is very easy and much fast to run anything with jekyll locally
+Because jekyll is open-source static site generator and it also has a very good integration with GitHub Pages. If you already have a ruby development setup installed in your local machine then it is very easy and much fast to run anything with jekyll locally.
 
 
 ## How to Prepare local development environment to get started
-In this article we will only discuss how to set up in the MAC environment
+In this article we will only discuss how to set up in the **MAC environment**.
 
 First , we need to check if we already have ruby installed
 ```bash

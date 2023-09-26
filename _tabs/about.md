@@ -15,7 +15,7 @@ order: 4
 #### What I'm doing?
 - 🏢 Working at **[ELINVAR](https://elinvar.de/)** as a **Backend Engineer**.
 - 👨‍💻 Writing `JAVA` `SQL`.
-- 🌍 Mostly active on Linked<a href="https://www.linkedin.com/in/ronokdev"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height=22px></a>.
+- 🌍 Mostly active on **[LinkedIn](https://www.linkedin.com/in/ronokdev)**.
 - 📚 Currently learning about **clean architecture**.
 - 🛠️ Working on **microservices**, **distributed systems** professionally.
 
