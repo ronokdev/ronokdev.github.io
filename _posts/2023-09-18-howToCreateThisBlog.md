@@ -5,15 +5,15 @@ categories: [portfolio]
 tags: [portfolio,personal site,cv]
 ---
 
-### Objective of this article
+## Objective of this article
 we are going to understand how to build and host portfolio site with jekyll-chirpy under 1 hour. We will use chirpy as a theme and we will host this static site to GitHub.
 
 
-### Why we are using jekyll
+## Why we are using jekyll
 Because jekyll is open-source static site generator and it also has a very good integration with GitHub Pages. If you already have a ruby development setup installed in your local machine then it is very easy and much fast to run anything with jekyll locally
 
 
-### How to Prepare our local development environment to get started
+## How to Prepare local development environment to get started
 In this article we will only discuss how to set up in the MAC environment
 
 First , we need to check if we already have ruby installed
@@ -74,8 +74,9 @@ which -a gem
 which -a ruby
 ```
 when the first command `gem env home` is run then, we should see something as output
-
-`/Users/YOUR_USER_NAME/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0`
+```bash
+/Users/YOUR_USER_NAME/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0
+```
 
 And that means we have ruby setup in our local machine.
 <br>
@@ -83,11 +84,15 @@ we can also verify even further with the last 2 commands
 
 For this command `which -a gem`, the output should be
 
-`/Users/YOUR_USER_NAME/.rbenv/shims/gem`
+```bash
+/Users/YOUR_USER_NAME/.rbenv/shims/gem
+```
 
 For this command `which -a ruby`, the output should be
 
-`/Users/mdfarhanfuadronok/.rbenv/shims/ruby`
+```bash
+/Users/YOUR_USER_NAME/.rbenv/shims/ruby
+```
 
 
 
