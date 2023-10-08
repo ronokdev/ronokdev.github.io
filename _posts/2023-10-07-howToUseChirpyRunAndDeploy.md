@@ -92,6 +92,8 @@ If our local server is running, and we open our browser and hit this address `ht
 
 We can click on it, and it will show us the details.
 
+We will discuss on another blog post on how we can customize the name and the image.
+
 ![](/../assets/img/article_2/7.png)
 
 And this is how we can create a blog post.
