@@ -6,22 +6,22 @@ tags: [portfolio,personal site,cv]
 ---
 
 ## Objective
-we are going to understand how to 
+We are going to understand how to 
 <br>
 - Use Chirpy theme 
 - Run in local environment
-- create first Blog post
+- Create first Blog post
 - Deploy using GitHub pages
 
 
 ## How to use Chirpy theme
-First step is to fork the chirpy project from [CHIRPY-GITHUB](https://github.com/cotes2020/chirpy-starter)
+First step is to fork the chirpy project from [CHIRPY-GITHUB](https://github.com/cotes2020/chirpy-starter).
 <br>
 <br>
 ![](/../assets/img/article_2/1.png)
 
 <br>
-then, give the repository name. The repository name must align with your GitHub username. 
+Then, give the repository name. The repository name must align with your GitHub username. 
 
 For Example, 
 if my GitHub username is `ronokdev` then the repository name must be `ronokdev.github.io`
@@ -34,7 +34,7 @@ After creating fork of the chirpy starter project we need to pull or clone the p
 
 We can use any IDE as of our choice.I am using webstorm from JetBrains.
 
-If the pulling from GitHub happened correctly, and we open the project with our IDE. We should see the project folder structure something like below 
+If the pulling from GitHub occurs correctly, and we open the project with our IDE, we should see the project folder structure something like below 
 
 ![](/../assets/img/article_2/4.png)
 
@@ -42,13 +42,13 @@ If the pulling from GitHub happened correctly, and we open the project with our 
 ## Run in local environment
 Now it's time to run the project locally.
 
-we need to go to the project folder in our local machine and run 
+We need to go to the project folder in our local machine and run the following command.
 
 ```bash
 bundle
 ```
-This `bundle` command will download and install all the dependency for this project.
-For actually run the project in our local machine, we need to execute
+This `bundle` command will then download and install all the dependency for this project.
+To actually run the project in our local machine, we need to execute
 
 ```bash
 bundle exec jekyll s
@@ -86,11 +86,11 @@ tags: [tag1,tag2]
 ## Heading
 This is a content
 ```
-and if our local server is running, and we open our browser and hit this address `http://127.0.0.1:4000/`. We should see our first created blog post. 
+If our local server is running, and we open our browser and hit this address `http://127.0.0.1:4000/`, we should see our first blog post. 
 
 ![](/../assets/img/article_2/6.png)
 
-we can click on it, and it will show us the details
+We can click on it, and it will show us the details.
 
 ![](/../assets/img/article_2/7.png)
 
@@ -100,17 +100,17 @@ Now it's time for deploy.
 
 
 ## Deploy using GitHub pages
-Assuming that we are at `main` git branch and if we add all the changes to a commit and push the commit to gitHub then automatically it will trigger a deployment and our site will be deployed to `YOUR-GIVEN-NAME.github.io` and in my case it will be `ronokdev.github.io`  
+Assuming that we are at `main` git branch and if we add all the changes to a commit and push the commit to GitHub then automatically it will trigger a deployment and our site will be deployed to `YOUR-GIVEN-NAME.github.io`, in my case it will be `ronokdev.github.io`  
 
-Before pushing our changes we need to check what is our default branch in our git repository. And we can do that by going to `settings` and check the `Default Branch` name.
+Before pushing our changes, we need to check what is our default branch in our git repository. And we can do that by going to `settings` and check the `Default Branch` name.
 
 ![](/../assets/img/article_2/8.png)
 
-After we push our commit to the `main` branch, we should see a deployment running. 
+After pushing our commit to the `main` branch, we should see a deployment running. 
 
 ![](/../assets/img/article_2/9.png)
 
-And when the deployment is successfully done then we should see our site running at `YOUR-GIVEN-NAME.github.io` and in my case `ronokdev.github.io`
+when the deployment is successful, we should see our site running at `YOUR-GIVEN-NAME.github.io` and in my case `ronokdev.github.io`
 
 Aaaand, deployment is done.
 
