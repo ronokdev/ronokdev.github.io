@@ -58,19 +58,16 @@ Then we should see the project run in our local machine on this address  `http:/
 
 ![](/../assets/img/article_2/5.png)
 
-And that's it , so now we have all the component we need to continue building our static site.
+And that's it , we have successfully run the project.
 
 ## Create first Blog post
-For creating a blog we need to add file with a specific format under the `_post` folder.
+For creating a blog we need to add file with a specific name format under the `_post` folder.
 
-File name should be in this format
+File name should be in this format `DATE-FILENAME.md`
 
 ```bash
-DATE-FILENAME.md
-
-# Example
+# Example file name
 2023-10-07-FILENAME.md
-
 ```
 The format is very important.
 **_Also if we put future date, then the post will not come up in our site_**.
@@ -115,7 +112,7 @@ After we push our commit to the `main` branch, we should see a deployment runnin
 
 And when the deployment is successfully done then we should see our site running at `YOUR-GIVEN-NAME.github.io` and in my case `ronokdev.github.io`
 
-
+Aaaand, deployment is done.
 
 
 {% include comment.html %}
