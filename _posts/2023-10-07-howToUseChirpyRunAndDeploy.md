@@ -88,13 +88,13 @@ This is a content
 ```
 If our local server is running, and we open our browser and hit this address `http://127.0.0.1:4000/`, we should see our first blog post. 
 
-![](/../assets/img/article_2/6.png)
+![6](/../assets/img/article_2/6.png)
 
 We can click on it, and it will show us the details.
 
 We will discuss on another blog post on how we can customize the name and the image.
 
-![](/../assets/img/article_2/7.png)
+![7](/../assets/img/article_2/7.png)
 
 And this is how we can create a blog post.
 
