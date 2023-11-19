@@ -18,7 +18,7 @@ We are going to understand how to
 First step is to fork the chirpy project from [CHIRPY-GITHUB](https://github.com/cotes2020/chirpy-starter).
 <br>
 <br>
-![](/../assets/img/article_2/1.png)
+![1](/../assets/img/article_2/1.png)
 
 <br>
 Then, give the repository name. The repository name must align with your GitHub username. 
@@ -26,17 +26,17 @@ Then, give the repository name. The repository name must align with your GitHub 
 For Example, 
 if my GitHub username is `ronokdev` then the repository name must be `ronokdev.github.io`
 
-![](/../assets/img/article_2/2.png)
+![2](/../assets/img/article_2/2.png)
 
 After creating fork of the chirpy starter project we need to pull or clone the project into our local machine.  
 
-![](/../assets/img/article_2/3.png)
+![3](/../assets/img/article_2/3.png)
 
 We can use any IDE as of our choice.I am using webstorm from JetBrains.
 
 If the pulling from GitHub occurs correctly, and we open the project with our IDE, we should see the project folder structure something like below 
 
-![](/../assets/img/article_2/4.png)
+![4](/../assets/img/article_2/4.png)
 
 
 ## Run in local environment
@@ -56,7 +56,7 @@ bundle exec jekyll s
 
 Then we should see the project run in our local machine on this address  `http://127.0.0.1:4000/`
 
-![](/../assets/img/article_2/5.png)
+![5](/../assets/img/article_2/5.png)
 
 And that's it , we have successfully run the project.
 
@@ -106,11 +106,11 @@ Assuming that we are at `main` git branch and if we add all the changes to a com
 
 Before pushing our changes, we need to check what is our default branch in our git repository. And we can do that by going to `settings` and check the `Default Branch` name.
 
-![](/../assets/img/article_2/8.png)
+![8](/../assets/img/article_2/8.png)
 
 After pushing our commit to the `main` branch, we should see a deployment running. 
 
-![](/../assets/img/article_2/9.png)
+![9](/../assets/img/article_2/9.png)
 
 when the deployment is successful, we should see our site running at `YOUR-GIVEN-NAME.github.io` and in my case `ronokdev.github.io`
 
