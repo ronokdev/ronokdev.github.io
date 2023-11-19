@@ -1,8 +1,8 @@
 ---
 title:  Build and host portfolio site with jekyll chirpy - Part 3
-date: 2023-10-07 12:34:27 -500
+date: 2023-11-18 12:34:27 -500
 categories: [portfolio]
-tags: [portfolio,personal site,cv]
+tags: [portfolio,personal site,cv,giscus,comment]
 ---
 
 ## Objective
