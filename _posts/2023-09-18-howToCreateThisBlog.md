@@ -1,5 +1,5 @@
 ---
-title:  Build and host portfolio site with jekyll chirpy - Part 1
+title:  Build and host portfolio site with jekyll chirpy - Part 1 | Prepare Local Environment
 date: 2023-09-18 12:34:27 -500
 categories: [portfolio]
 tags: [portfolio,personal site,cv]

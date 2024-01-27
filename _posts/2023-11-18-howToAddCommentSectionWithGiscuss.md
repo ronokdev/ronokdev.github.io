@@ -1,5 +1,5 @@
 ---
-title:  Build and host portfolio site with jekyll chirpy - Part 3
+title:  Build and host portfolio site with jekyll chirpy - Part 3 | Add Comment Using Giscus
 date: 2023-11-18 12:34:27 -500
 categories: [portfolio]
 tags: [portfolio,personal site,cv,giscus,comment]
