@@ -1,5 +1,5 @@
 ---
-title:  Build and host portfolio site with jekyll chirpy - Part 4 | Hosting to Custom Domain
+title:  Build and host portfolio site with jekyll chirpy - Part 4 | Set Custom Domain
 date: 2024-01-20 12:34:27 -500
 categories: [portfolio]
 tags: [portfolio,personal site,cv,domain,hosting,custom]
