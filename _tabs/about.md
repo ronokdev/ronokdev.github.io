@@ -14,7 +14,7 @@ order: 4
 
 #### What I'm doing?
 - 🏢 Working at **[SAP](https://www.sap.com/germany/index.html?url_id=auto_hp_redirect_germany)** as a **Software Engineer**.
-- 👨‍💻 Writing `JAVA` `SQL`.
+- 👨‍💻 Writing `JAVA`
 - 🌍 Mostly active on **[LinkedIn](https://www.linkedin.com/in/ronokdev)**.
 - 📚 Currently learning about **clean architecture**.
 - 🛠️ Working on **microservices**, **distributed systems** professionally.
